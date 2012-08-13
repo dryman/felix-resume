@@ -1,0 +1,134 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass{res} 
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\usepackage[colorlinks=true]{hyperref}
+\setlength{\textheight}{9.5in} % increase text height to fit on 1-page 
+
+\begin{document} 
+
+\name{Felix R. Chern\\[12pt]}     % the \\[12pt] adds a blank
+				        % line after name      
+
+\address{\bf  PRESENT ADDRESS\\5F. No.19, Ln.86, Sec.3, \\XingSheng S. Rd.,
+Taipei 12180\\(886) 928-055225}
+\address{\bf  PERSONAL SITES \\ \url{http://idryman.org}\\
+\url{http://search.cpan.org/~dryman/}\\
+\url{http://www.linkedin.com/profile/view?id=139702533}\\
+\url{https://github.com/dryman} \\
+}
+                                  
+\begin{resume}
+
+\section{JOB OBJECTIVE}          
+Looking for an iOS development job.
+ 
+\section{EDUCATION}          
+    Mechanical Engineering, National Taiwan University \\
+    Bachelor degree, June 2011\\
+    G.P.A. 3.3/4.0\\
+    Self educated in computer science and software engineering \\
+
+ 
+\section{EXPERIENCE}
+   \vspace{-0.1in}	
+   \begin{tabbing}
+   \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
+    {\bf Research Assistant} \>Institute of Information Science\>Fall 2011-Present\\
+                             \>Academia Sinica
+   \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
+    I'm working under "Open Information System for Disaster Management
+    (OpenISDM)" project which targeted on designing information system to reduce
+    and repair Taiwan disasters. I am the project website constructor and
+    administrator. I response for a crowdsourcing project and iOS app
+    development.
+    
+   \begin{tabbing}
+   \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
+    {\bf System Administrator } \>Biomimetics, Energy, \> Spring 2010 - Fall 2011\\
+    {(still a student)}   \>and Microfluid (BEAM) Laboratory\\
+                          \> National Taiwan University
+   \end{tabbing}\vspace{-20pt}
+   I worked at BEAM lab as a Linux system administrator and build up scientific
+   development environment of commercial and open source softwares. At the time
+   I also collaborate with Mathematic department for numerical calculation
+   studies and medical imaging.
+   \begin{tabbing}%
+   \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions          
+   {\bf Undergraduate research} \>Department of Mathematics\> Fall 2010 - Fall 2011\\
+                          \>National Taiwan University
+   \end{tabbing}\vspace{-20pt}
+   I am the second author of "Ultrafast image reconstruction of a dual-head PET
+   system by use of CUDA architecture,” supervised by Professor Weichung Wang.
+   \begin{tabbing}%
+   \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions          
+   {\bf Undergraduate research} \>National Science Council\> 2009-2010 \\
+   \end{tabbing}\vspace{-20pt}
+   NSC Undergraduate Research Project, “Image Recognition for Fish Motion,”
+   supervised by Professor Jing-Tang Yang, Department of Mechanical Engineering.
+   After this project, I went to professor Yang's laboratory as system
+   administrator.
+
+
+\section{COMPUTER SKILLS}          
+  One of the Perl CPAN Authors. (\url{http://search.cpan.org/~dryman}) \\
+  Objective-C programming, on Mac and iOS. \\
+  Ruby programming, mostly writing plugins for Jekyll blogging system.\\
+  Matlab and bridge to C/Cpp. It is best to solve numerical problems in Matlab.\\
+  Nvidia CUDA. We used this to solve medical imaging problems.\\
+  JQuery, nodejs and javascript. I made a push notification demo with it.\\
+  Common Lisp and Clojure (my recent hobby.)\\
+
+\section{HIGHLIGHTED OPEN SOURCE PROJECTS}
+  \url{https://github.com/dryman} \\
+  \url{http://search.cpan.org/~dryman} \\
+
+
+  Lingua::ZH::MMSEG Mandarin Chinese segmentation. In my current job of
+  crowdsourcing project, we need to process Chinese text and do keyword
+  extraction. Linua::ZH::MMSEG is the key part of the process. 
+
+  CangJieX CangJie Chinese input method for osx. I made this input method for
+  myself, because osx's input method sucks.
+
+  NodeJS jquery mobile demo. A simple demo for sending notification actively to
+  multiple browser clients.
+
+  \href{http://www.idryman.org/blog/2012/04/04/jekyll-graphviz-plugin/} {Jekyll graphviz plugin.}
+  Generate eye stunning graphs right in Jekyll markdown text.
+
+  \href {http://www.idryman.org/blog/2012/04/05/jekyll-octopress-hacker-news-plugin/} {Jekyll hacker news plugin.}
+  Add a hacker news button on Jekyll blog post.
+ 
+ 
+\section{HONORS AND AWARDS}          
+  Third place of undergraduate research competition, North Center of
+  Inter-Science Education Program, ``Prey and Predator ODE Model Simulation'',
+  supervised by Professor Hung-Chi Kuo, Department of Atmospheric Sciences,
+  National Taiwan University, 2007. \\
+  Scholarship, Formosan Summer School on Logic, Language, and Computation Summer
+  School, National Taiwan University, 2010.\\
+  Third place of competition for Matrix Computation Benchmark in High
+  Performance Computation Summer School at KTH (Royal Institute of Technology),
+  Sweden, 2010.\\
+
+\section{INTERNATIONAL CONFERENCE PAPER}
+  YuKai Hung, Felix R. Chern, Weichung Wang, and Cheng-Ying Chou, “Ultrafast
+  image reconstruction of a dual-head PET system by use of CUDA architecture,”
+  Lake Buena Vista, Florida, USA, 2011.
+ 
+\section{COMMUNITY ACTIVITIES}
+Chupei Perl (Perl Developer Club)\\
+CocoaHeads Taipei\\
+Rails Tuesday\\
+RGBA Taipei (web design and development club)\\
+
+\section{CAMPUS INVOLVEMENT}
+NTU Magic Club\\
+NTU Chorus\\
+
+ 
+\end{resume}
+\end{document}
